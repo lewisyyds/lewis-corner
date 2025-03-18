@@ -1,0 +1,12 @@
+2025-03-18T14:09:49.357Z +22002ms [debug] Config loaded {"version":"2.43.4","cdkVersion":"2.142.1","constructsVersion":"10.3.0","config":{"name":"my-sst-app","region":"us-east-1","stage":"stage","ssmPrefix":"/sst/my-sst-app/stage/"},"metafile":{"inputs":{"sst.config.ts":{"bytes":211,"imports":[{"path":"sst","kind":"import-statement","external":true},{"path":"./stacks/MyStack","kind":"import-statement","external":true}],"format":"esm"}},"outputs":{".sst.config.1742306967362.mjs":{"imports":[],"exports":["default"],"entryPoint":"sst.config.ts","inputs":{"sst.config.ts":{"bytesInOutput":125}},"bytes":307}}},"paths":{"config":"/Users/lewis/TCL/code/lewis-corner/sst.config.ts","root":"/Users/lewis/TCL/code/lewis-corner","out":"/Users/lewis/TCL/code/lewis-corner/.sst","artifacts":"/Users/lewis/TCL/code/lewis-corner/.sst/artifacts"}}
+2025-03-18T14:09:50.177Z   +820ms [debug] dev is ready
+2025-03-18T14:09:50.181Z     +4ms [debug] Using AWS profile 
+2025-03-18T14:09:50.183Z     +2ms [debug] Created AWS client IoTClient
+2025-03-18T14:09:50.183Z     +0ms [debug] Getting IoT endpoint
+2025-03-18T14:09:50.194Z    +11ms [debug] Fetching all metadata
+2025-03-18T14:09:50.194Z     +0ms [debug] Initializing bootstrap context
+2025-03-18T14:09:50.195Z     +1ms [debug] Created AWS client CloudFormationClient
+2025-03-18T14:09:50.227Z    +32ms [debug] Created AWS client RDSDataClient
+2025-03-18T14:09:50.425Z   +198ms [debug] [kysely-codegen] Loaded kyseley type generator
+2025-03-18T14:09:50.821Z   +396ms [debug] Synthesizing stacks...
+2025-03-18T14:09:50.825Z     +4ms [debug] Created AWS client STSClient
